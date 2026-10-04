@@ -60,6 +60,12 @@ After completing training, the script exports the following assets:
 - `en_ml_translator.keras` - The unified training model.
 - `encoder_model.keras` / `decoder_model.keras` - Separated inference models.
 - `en_tokenizer.pickle` / `ml_tokenizer.pickle` - Pickled tokenizers to decode indices back into text.
+---
+
+### 📥 Download Trained Models
+Since the trained Keras model file is larger than 25MB, it is hosted on Google Drive. You can download the trained weights from the link below and place them in your project directory:
+
+* **[Download Model Weights (en_ml_translator.keras)](https://drive.google.com/file/d/11tupGrw1qr0OAjtPcZPD3rjWRwz0GUxs/view?usp=drive_link)**
 
 ---
 
